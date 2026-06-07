@@ -332,3 +332,29 @@ table tr:hover{
 .card-buttons a{
     margin:0 8px;
 }
+
+.dashboard-header{
+
+    text-align:center;
+
+    margin:30px 0;
+}
+
+.dashboard-header h2{
+
+    color:#333;
+}
+
+.dashboard-header p{
+
+    color:#777;
+}
+
+.section-title{
+
+    margin-top:50px;
+
+    margin-bottom:25px;
+
+    color:#333;
+}
