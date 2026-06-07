@@ -389,7 +389,7 @@ table tr:hover{
 
 .sidebar{
 
-    width:250px;
+    width:220px;
 
     min-height:100vh;
 
@@ -450,4 +450,17 @@ table tr:hover{
     width:100%;
 
     padding:20px;
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#64748b;
+
+    margin-top:-10px;
+
+    margin-bottom:30px;
+
+    font-size:18px;
 }

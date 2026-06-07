@@ -64,6 +64,10 @@ $result = mysqli_query($conn, "SELECT * FROM products");
 
     <h1>Admin Panel</h1>
 
+    <p class="subtitle">
+    Manage your products, orders and revenue
+    </p>
+
     <div class="stats-container">
 
         <div class="stat-card">
