@@ -40,6 +40,24 @@ $result = mysqli_query($conn, "SELECT * FROM products");
 </head>
 <body>
 
+<div class="layout">
+
+<div class="sidebar">
+
+    <h2>NovaCart</h2>
+
+    <a href="admin.php">🏠 Dashboard</a>
+
+    <a href="orders.php">📦 Orders</a>
+
+    <a href="add-product.php">➕ Add Product</a>
+
+    <a href="logout.php">🚪 Logout</a>
+
+</div>
+
+<div class="main-content">
+
 <div class="container">
 
     <h1>Admin Panel</h1>
@@ -137,6 +155,10 @@ $result = mysqli_query($conn, "SELECT * FROM products");
     <?php endwhile; ?>
 
     </div>
+
+</div>
+
+</div>
 
 </div>
 
