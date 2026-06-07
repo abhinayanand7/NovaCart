@@ -46,7 +46,9 @@ $result = mysqli_query($conn, "SELECT * FROM products");
 
     <h2>NovaCart</h2>
 
-    <a href="admin.php">🏠 Dashboard</a>
+    <a href="admin.php" class="active">
+    🏠 Dashboard
+    </a>
 
     <a href="orders.php">📦 Orders</a>
 
@@ -66,22 +68,22 @@ $result = mysqli_query($conn, "SELECT * FROM products");
 
         <div class="stat-card">
             <h3><?php echo $totalProducts; ?></h3>
-            <p>Products</p>
+            <p>📦 Products</p>
         </div>
 
         <div class="stat-card">
             <h3><?php echo $totalOrders; ?></h3>
-            <p>Orders</p>
+            <p>🛒 Orders</p>
         </div>
 
         <div class="stat-card">
             <h3><?php echo $pendingOrders; ?></h3>
-            <p>Pending</p>
+            <p>⏳ Pending</p>
         </div>
 
         <div class="stat-card">
             <h3>₹<?php echo $revenue; ?></h3>
-            <p>Revenue</p>
+            <p>💰 Revenue</p>
         </div>
 
     </div>
